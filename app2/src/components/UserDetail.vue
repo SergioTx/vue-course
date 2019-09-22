@@ -8,7 +8,15 @@
 
 <script>
 export default {
-  props: ["myName"],
+  props: {
+    myName: {
+      type: String,
+      // required: true,
+      default: "Max"
+      // type: Object,
+      // default() {return {name: 'Max'}}
+    }
+  },
   methods: {
     switchName() {
       return this.myName
