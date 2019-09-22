@@ -7,7 +7,13 @@
 </template>
 
 <script>
-export default {};
+import Quote from "./components/Quote.vue";
+
+export default {
+  components: {
+    "app-quote": Quote
+  }
+};
 </script>
 
 <style>
