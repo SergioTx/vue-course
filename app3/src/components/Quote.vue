@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <p>A wonderful quote!</p>
-  </div>
+  <div></div>
 </template>
 
 <script>
