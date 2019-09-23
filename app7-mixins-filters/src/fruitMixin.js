@@ -9,5 +9,8 @@ export const fruitMixin = {
     filteredFruits() {
       return this.fruits.filter(el => el.match(this.filterText));
     }
+  },
+  created() {
+    console.log("Created");
   }
 };
